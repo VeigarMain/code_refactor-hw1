@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- Linked the correct ./style.css file -->
     <link rel="stylesheet" href="./style.css">
     <title>website</title>
 </head>
-
+<!-- Created header and class "header" -->
 <body>
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
+                    <!-- Fixed a btn issue with the search-engine-optimization by using a nav -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -22,14 +24,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-        
+        </nav>
+        <!-- deleted unnecessary div that wasn't tied to anyother div -->
     </header>
     
     <div class="hero"></div>
+    <!-- created main tag with class="content" to create sections inside the main -->
     <main class="content">
-        
-        <section class="search-engine-optimization">
+        <!-- created sections for each id and and class inside the <main> -->
+        <section id="search-engine-optimization" class="search-engine-optimization">
             <img src="./brand-img/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -51,6 +54,7 @@
             </p>
         </section>
     </main>
+    <!-- used an aside tag to push the benefit classes to the correct side of the page -->
     <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -74,7 +78,8 @@
             </p>
         </div>
     </aside>
-    <footer class="footer">
+    <!-- inserted a footer inorder to push the correct elements to the bottom of the page -->
+    <footer>
         <h2>Made with❤️️by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
